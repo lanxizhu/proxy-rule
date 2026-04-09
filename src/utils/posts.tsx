@@ -1,7 +1,7 @@
 import { notFound } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 
-export type PostType = {
+export interface PostType {
   id: number
   title: string
   body: string
