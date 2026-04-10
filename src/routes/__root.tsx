@@ -117,7 +117,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
           </Link>
           {' '}
           <Link
-            // @ts-expect-error
+            // @ts-expect-error - This is to test the NotFound route
             to="/this-route-does-not-exist"
             activeProps={{
               className: 'font-bold',
